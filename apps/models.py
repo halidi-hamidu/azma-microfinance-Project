@@ -1,6 +1,6 @@
 from django.db import models
 import uuid
-from djrichtextfield.models import RichTextFiel
+from djrichtextfield.models import RichTextField
 # Create your models here.
 class Branch(models.Model):
     id = models.UUIDField(
